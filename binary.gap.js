@@ -4,7 +4,7 @@ const num = 51712
 //111111 => 0
 //000000 => 0
 const binaryGap = (N) => {
-    const b = Number(N).toString(2);
+    const b = N.toString(2);
 
     let max = 0
 
@@ -29,4 +29,4 @@ const binaryGap = (N) => {
 }
 
 
-console.log(binaryGap(num))
+console.log(num, num.toString(2), binaryGap(num))
